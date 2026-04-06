@@ -1,0 +1,9 @@
+# terraform.tfvars.example
+# Copy this file to terraform.tfvars and replace with your actual values
+
+aws_region            = "us-east-1"
+my_ip_address         = "198.51.100.14/32" 
+key_pair_name         = "my-aws-key-pair"
+bastion_instance_type = "t3.micro"
+web_instance_type     = "t3.micro"
+db_instance_type      = "t3.small"
