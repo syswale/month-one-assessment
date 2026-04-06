@@ -9,7 +9,6 @@ variable "aws_region" {
 variable "my_ip_address" {
   description = "Your current IP address to allow SSH access to the Bastion host"
   type        = string
-  # Format should be "x.x.x.x/32"
 }
 
 variable "key_pair_name" {
